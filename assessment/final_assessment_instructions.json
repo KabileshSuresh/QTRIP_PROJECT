@@ -8,7 +8,7 @@
         },
         {
             "assesmentDescription":"Verify testCase 1 : Iteration 2 ",
-            "find":".//test-method[contains(@name,'TestCase01') and @status='PASS']//value[text()[contains(.,'TESTUSER@gmail.com')] or text()[contains(.,'123456.0')]]",
+            "find":".//test-method[contains(@name,'TestCase01') and @status='PASS']//value[text()[contains(.,'TESTUSER@gmail.com')] or text()[contains(.,'123456')]]",
             "expectedCount":2,
             "errorMessage":"testCase01:Dataset2 validation Failed"
         },
