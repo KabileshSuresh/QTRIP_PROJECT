@@ -11,7 +11,7 @@ public class testCase_01 {
     WebDriver driver;
 
     @BeforeMethod
-    public void setUp() {
+    public void setUp() {//
         //
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-linux64/chromedriver");
        
