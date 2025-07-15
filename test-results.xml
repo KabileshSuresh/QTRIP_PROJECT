@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T23:27:31 IST" name="Gradle suite" finished-at="2025-07-15T23:30:22 IST" duration-ms="171333">
+    <groups>
+      <group name="Booking and Cancellation Flow">
+        <method signature="testCase_03.TestCase03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:qtriptest.tests.testCase_03@506ae4d4]" name="TestCase03" class="qtriptest.tests.testCase_03"/>
+      </group> <!-- Booking and Cancellation Flow -->
+      <group name="History Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" name="TestCase01" class="qtriptest.tests.testCase_01"/>
+      </group> <!-- History Flow -->
+      <group name="Reservation Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" name="TestCase01" class="qtriptest.tests.testCase_01"/>
+      </group> <!-- Reservation Flow -->
+      <group name="Reliability Flow">
+        <method signature="testCase_04.TestCase04(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:qtriptest.tests.testCase_04@7d4f9aae]" name="TestCase04" class="qtriptest.tests.testCase_04"/>
+      </group> <!-- Reliability Flow -->
+      <group name="Search and Filter flow">
+        <method signature="testCase_02.TestCase02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" name="TestCase02" class="qtriptest.tests.testCase_02"/>
+      </group> <!-- Search and Filter flow -->
+      <group name="Search and Filter Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" name="TestCase01" class="qtriptest.tests.testCase_01"/>
+      </group> <!-- Search and Filter Flow -->
+      <group name="Login Flow">
+        <method signature="testCase_01.TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" name="TestCase01" class="qtriptest.tests.testCase_01"/>
+      </group> <!-- Login Flow -->
+    </groups>
+    <test started-at="2025-07-15T23:27:31 IST" name="Gradle test" finished-at="2025-07-15T23:30:22 IST" duration-ms="171333">
+      <class name="qtriptest.tests.testCase_01">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:27:51 IST" name="setUp" finished-at="2025-07-15T23:27:51 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:27:51 IST" name="TestCase01" data-provider="data-provider" finished-at="2025-07-15T23:27:56 IST" duration-ms="4114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:27:56 IST" name="tearDown" finished-at="2025-07-15T23:27:56 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:27:56 IST" name="setUp" finished-at="2025-07-15T23:27:56 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:27:56 IST" name="TestCase01" data-provider="data-provider" finished-at="2025-07-15T23:28:00 IST" duration-ms="3974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TESTUSER@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:28:00 IST" name="tearDown" finished-at="2025-07-15T23:28:01 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:28:01 IST" name="setUp" finished-at="2025-07-15T23:28:01 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:28:01 IST" name="TestCase01" data-provider="data-provider" finished-at="2025-07-15T23:28:10 IST" duration-ms="8237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123_USER_low@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QWERTY!!!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtriptest.tests.testCase_01@13fd2ccd]" started-at="2025-07-15T23:28:10 IST" name="tearDown" finished-at="2025-07-15T23:28:10 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtriptest.tests.testCase_01 -->
+      <class name="qtriptest.tests.testCase_04">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:02 IST" name="setup" finished-at="2025-07-15T23:29:02 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase04(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:02 IST" name="TestCase04" data-provider="data-provider" finished-at="2025-07-15T23:29:24 IST" duration-ms="21307" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC4_1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru;Niaboytown;Chicky;01-01-2027;2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kolkata;Thton;Cha Cha;01-02-2027;3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Malaysia;Wootkentree;Bom Bom;02-12-2027;1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Failed to scroll and click element]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Failed to scroll and click element
+at qtriptest.tests.testCase_04.scrollAndClick(testCase_04.java:187)
+at qtriptest.tests.testCase_04.performBooking(testCase_04.java:127)
+at qtriptest.tests.testCase_04.TestCase04(testCase_04.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'kabileshs-joy', ip: '192.168.21.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.159, chrome: {chromedriverVersion: 132.0.6834.3 (53894d62aa4b2..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95d49a1f0eae008eed8fd36e8be392e7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:512)
+at qtriptest.tests.testCase_04.scrollAndClick(testCase_04.java:178)
+... 48 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:24 IST" name="teardown" finished-at="2025-07-15T23:29:24 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:24 IST" name="setup" finished-at="2025-07-15T23:29:25 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase04(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:25 IST" name="TestCase04" data-provider="data-provider" finished-at="2025-07-15T23:29:53 IST" duration-ms="27347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC4_2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru;Fort Sionnnn;Chicky;01-01-2027;2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kolkata;North Gelgoon;Cha Cha;01-02-2027;3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Malaysia;Wootkentree;Lya;02-12-2027;1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:53 IST" name="teardown" finished-at="2025-07-15T23:29:53 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:53 IST" name="setup" finished-at="2025-07-15T23:29:53 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase04(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:29:53 IST" name="TestCase04" data-provider="data-provider" finished-at="2025-07-15T23:30:22 IST" duration-ms="28332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC4_3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Goa;Perthby;Chicky;01-01-2027;2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bengaluru;Niaboytown;Chicky;01-01-2027;2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bengaluru;Fort Sionnnn;Chicky;01-01-2027;2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_04@7d4f9aae]" started-at="2025-07-15T23:30:22 IST" name="teardown" finished-at="2025-07-15T23:30:22 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qtriptest.tests.testCase_04 -->
+      <class name="qtriptest.tests.testCase_03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:10 IST" name="setup" finished-at="2025-07-15T23:28:11 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:11 IST" name="TestCase03" data-provider="data-provider" finished-at="2025-07-15T23:28:27 IST" duration-ms="16291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3_1@gmaill.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Niaboytown]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[palam]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[16-11-2026]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:27 IST" name="teardown" finished-at="2025-07-15T23:28:27 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:27 IST" name="setup" finished-at="2025-07-15T23:28:28 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:28 IST" name="TestCase03" data-provider="data-provider" finished-at="2025-07-15T23:28:44 IST" duration-ms="15776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3_2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Singapore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Grand Ashland]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[biden]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[26-11-2026]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:44 IST" name="teardown" finished-at="2025-07-15T23:28:44 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:44 IST" name="setup" finished-at="2025-07-15T23:28:45 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:28:45 IST" name="TestCase03" data-provider="data-provider" finished-at="2025-07-15T23:29:01 IST" duration-ms="15986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3_3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bangkok]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tifwales Ferry]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[prabhu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[26-12-2026]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qtriptest.tests.testCase_03@506ae4d4]" started-at="2025-07-15T23:29:01 IST" name="teardown" finished-at="2025-07-15T23:29:01 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qtriptest.tests.testCase_03 -->
+      <class name="qtriptest.tests.testCase_02">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:33 IST" name="setUp" finished-at="2025-07-15T23:27:34 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:34 IST" name="TestCase02" data-provider="data-provider" finished-at="2025-07-15T23:27:40 IST" duration-ms="5561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cycling Routes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6-12 Hours]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:40 IST" name="setUp" finished-at="2025-07-15T23:27:40 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:40 IST" name="TestCase02" data-provider="data-provider" finished-at="2025-07-15T23:27:45 IST" duration-ms="5042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singapore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hillside Getaways]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6-12 Hours]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:45 IST" name="setUp" finished-at="2025-07-15T23:27:45 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase02(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:45 IST" name="TestCase02" data-provider="data-provider" finished-at="2025-07-15T23:27:50 IST" duration-ms="5089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Party Spots]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2-6 Hours]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qtriptest.tests.testCase_02@b9b00e0]" started-at="2025-07-15T23:27:50 IST" name="tearDown" finished-at="2025-07-15T23:27:50 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qtriptest.tests.testCase_02 -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
