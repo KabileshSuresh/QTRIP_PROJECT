@@ -30,13 +30,7 @@ public class testCase_01 {
         System.out.println("Browser launched and navigated to home page");
     }
 
-    @Test(
-        dataProvider = "data-provider",
-        dataProviderClass = DP.class,
-        priority = 1,
-      
-        groups = { "Login Flow", "Search and Filter Flow", "Reservation Flow", "History Flow" }
-    )
+    @Test(dataProvider = "data-provider", dataProviderClass = DP.class, priority = 1, groups = {"Login Flow"})
     public void TestCase01(String tcId, String username, String password) throws InterruptedException {
         System.out.println("Running TestCase01 with ID: " + tcId + ", username: " + username);
         driver.manage().deleteAllCookies();

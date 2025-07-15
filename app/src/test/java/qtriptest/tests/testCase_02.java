@@ -21,7 +21,7 @@ public class testCase_02 {
         System.out.println("Browser launched and navigated to home page");
     }
 
-    @Test(dataProvider = "data-provider", dataProviderClass = DP.class, groups = {"Search and Filter flow"})
+    @Test(dataProvider = "data-provider", dataProviderClass = DP.class, groups = {"Search and Filter Flow"})
     public void TestCase02(String tcId, String city, String category, String duration, String expectedFilteredCount, String expectedTotalCount) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, 15);
 
