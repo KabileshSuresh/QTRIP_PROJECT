@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QTripDynamic Test Suite" verbose="1" parallel="false">
+    <test name="QTrip Tests">
+        <classes>
+            <class name="qtriptest.tests.testCase_01"/>
+            <class name="qtriptest.tests.testCase_02"/>
+            <class name="qtriptest.tests.testCase_03"/>
+            <class name="qtriptest.tests.testCase_04"/>
+        </classes>
+    </test>
+</suite>
